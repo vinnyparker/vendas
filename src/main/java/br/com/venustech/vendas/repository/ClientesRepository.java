@@ -1,6 +1,6 @@
 package br.com.venustech.vendas.repository;
 
-import br.com.venustech.vendas.service.model.Cliente;
+import br.com.venustech.vendas.model.Cliente;
 import org.springframework.stereotype.Repository;
 
 /**

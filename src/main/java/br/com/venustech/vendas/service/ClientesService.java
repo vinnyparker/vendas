@@ -1,7 +1,7 @@
 package br.com.venustech.vendas.service;
 
+import br.com.venustech.vendas.model.Cliente;
 import br.com.venustech.vendas.repository.ClientesRepository;
-import br.com.venustech.vendas.service.model.Cliente;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,6 +17,7 @@ public class ClientesService {
     public void setClientesRepository(ClientesRepository clientesRepository) {
         this.clientesRepository = clientesRepository;
     }
+
 
     public ClientesService(ClientesRepository clientesRepository) {
         this.clientesRepository = clientesRepository;
